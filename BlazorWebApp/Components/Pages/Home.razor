@@ -1,5 +1,5 @@
 ﻿@page "/"
-@using BlazorWebApp.Components.Controls;
+@using BlazorWebApp.Client.Components;
 
 <PageTitle>Home</PageTitle>
 
@@ -9,4 +9,4 @@ Welcome to your new app.
 <br/>
 <br/>
 
-<DisplayTimeComponent @rendermode="InteractiveServer"></DisplayTimeComponent>
+<DisplayTimeComponent @rendermode="InteractiveWebAssembly"></DisplayTimeComponent>
